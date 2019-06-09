@@ -1,0 +1,106 @@
+.wrapper{
+    height: 738px;
+    width: 1362px;
+    /*background-color: red;*/
+}
+header{
+     height: 170px;
+     width: 1376px;
+     background-color: black;
+     margin-left: -10px;
+     margin-top: -10px;
+}
+section{
+    height: 510px;
+    width: 1365px;
+    background-color: grey;
+}
+footer{
+    height: 90px;
+    width: 1365px;
+    background-color: black;
+    margin-left: -15px;  
+}
+.logo{
+    float: left;
+    padding-left: 10px;
+}
+.logo img{
+    padding-left: 160px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+nav{
+    float: right;
+    word-spacing: 20px;
+    padding: 30px;
+}
+nav li{
+    display: inline-block;
+    line-height: 70px;
+}
+section .img{
+    height: 550px;
+    margin-left: -20px;
+    background-image: url("images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: #030002;
+    margin: 30px auto;
+    opacity: .6;
+    color: white;
+}
+/*------------------------Student_Login---------------*/
+section .student1{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("images/stud1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.student_box{
+    height: 320px;
+    width: 450px;
+    background-color: white;
+    margin: 50px auto;
+    opacity: .6;
+    color: black;
+}
+input{
+    height: 25px;
+    width:250px;
+}
+/*-----------registration-------------*/
+.reg_img
+{
+    height: 900px;
+    margin-top: 0px;
+    background-image: url("images/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2
+{   padding-right: 50px;
+    height: 589px;
+    width: 400px;
+    background-color: white;
+    margin: 0px auto;
+    opacity: .9;
+    color: black;
+    padding: 20px;
+}
+/*---------------Admin Login-------------*/
+section .admin{
+    margin-left: -20px;
+    margin-top: -10px;
+    height: 621px;
+    background-image: url("images/stud1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
